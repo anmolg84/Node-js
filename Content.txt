@@ -1,0 +1,24 @@
+Introduction to node and express js
+1.Node js: Environment to run js outside browser
+	 : Built on chrome v8 js engine
+	 : Created by Ryan Dahl in 2009
+2.Diff btw browser js and node js
+	browser.js vs node js -> DOM vs no DOM
+		   	      -> Window vs no Window
+			      -> Interactive apps vs server side apps 
+			      -> No filesysytem vs filesystem
+			      -> Fragmentation vs versions
+			      -> ES6 Modules vs Common js
+3.Two ways to evaluate js code in node -> REPL : read eval print loop : to start use node command and to exit use ctrl+c (normal js we can use like shell)
+				       -> CLI : command line interface (running js filein terminal)
+4.CLI+Vs-Code: you can run it in terminal by typing (node filename)
+5.Globals: Global variable (which can be accessed anywhere) -> __dirname, __filename, module, require, process
+6.Modules: Encapsulated Code (only share minimum) {Bydefault common js file is Module}
+	-> you can export using modules.export and access anywhere using require function2.
+
+7.Built in modules : Operating system, File-system(async(non blocking) and sync(blocking)) ,Path , HTTPS
+8.Synchronous(blocking) : Synchronous code is also called “blocking” because it halts the program until all the resources are available
+9.Asynchronous(Non-Blocking) : asynchronous code is also known as “non-blocking” because the program continues executing and doesn't wait for external resources (I/O) 				to be available {it offload the task move on to next task and then comeback to prev task}
+10.HTTP : hyper text transfer protocol (request,result)
+11.NPM : Node package manager -> enables us to reuse our code , get others code and share our project for all
+	-> Reusable code (Package)
